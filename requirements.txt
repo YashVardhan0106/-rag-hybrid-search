@@ -1,0 +1,24 @@
+# --- Core ---
+google-genai>=1.0.0
+python-dotenv>=1.0.1
+
+# --- Document loading ---
+pypdf>=4.3.1
+markdown>=3.7
+
+# --- Chunking ---
+langchain-text-splitters>=0.3.0
+
+# --- Embeddings & retrieval ---
+sentence-transformers>=3.1.1
+chromadb>=0.5.5
+rank-bm25>=0.2.2
+
+# --- Re-ranking ---
+# (cross-encoder ships inside sentence-transformers, no extra package needed)
+
+# --- UI ---
+streamlit>=1.38.0
+
+# --- Eval ---
+pandas>=2.2.2

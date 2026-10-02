@@ -1,0 +1,15 @@
+# Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Data artifacts (regenerable — don't commit vector DBs)
+data/processed/
+chroma_db/
+
+# OS
+.DS_Store
